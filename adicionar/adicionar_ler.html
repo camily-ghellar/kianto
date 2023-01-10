@@ -1,0 +1,58 @@
+<!--Camily do Nascimento Ghellar-->
+
+<!--PESQUISAR MELHOR JEITO DE FAZER ISSO-->
+<!--AS CORES INFORMADAS NÃO SÃO REAIS (o usuário irá decidir)-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>KIANTO • Adicionar conteúdos para ler</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Camily do Nascimento Ghellar">
+    <meta name="refresh" content="2000">
+    <meta name="keywords" content="adicionar conteúdo de ler, matéria escolar, matéria para ler, organização."/>
+    <meta name="description" content="Adicionar conteúdo para ler."/>
+
+    <link rel="stylesheet" type="text/css" href="../estilo.css">
+    <link rel="shortcut icon" href="../favicon_kianto.jpeg" />
+</head>
+
+<body>
+	<header>
+		<a href="../listas/conteudo_ler.html"><img src="https://cdn-icons-png.flaticon.com/512/1/1112.png" width="60" height="40" alt="seta apontando para o lado esquerdo" style="display: inline-block; float: left; margin: 0 0 0 20px;"></a>
+
+        <!--ONDE '' COLOCAR O NOME DA MATÉRIA A QUE A PÁGINA SE REFERE-->
+		<h1>KIANTO • MATÉRIAS • ''</h1>
+	</header>
+
+	<hr> <br>
+
+	<div class="formulario_alinhado">
+	<h2 style="background-color: #040457; color: white; padding: 12px;">Ler</h2>
+	<fieldset>
+		<form action="cadastro_ler.php" method="POST">
+
+		<br>
+
+		<div>
+        <label></label><input type="text" name="descricao" id="descricao" size="61" placeholder="Descrição" required style="text-align: center; font-size: 17px;"> 	
+        <br>
+        <br>
+        <div style="border: 1px solid;">
+        <label>Anexo:  </label><input type="file" name="Anexo" style="padding: 6px;">
+    	</div>
+        </div>
+
+        <br>
+
+        <!--QUANDO 'confirmar', MANDAR INFORMAÇÕES PARA 'conteudo_ler' E VOLTAR PARA ESTE-->
+        <input type="submit" name="submit" id="submit" value="Confirmar" style="background-color: green; color: white;">
+        <!--QUANDO 'cancelar' VOLTAR PARA 'conteudo_ler'-->
+    	<input type="reset" value="Cancelar" style="background-color: red; color: white;">
+    	</form>
+	</fieldset>
+	</div>
+</body>
+</html>

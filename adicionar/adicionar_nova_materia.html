@@ -1,0 +1,53 @@
+<!--Camily do Nascimento Ghellar-->
+
+<!--PESQUISAR MELHOR JEITO DE FAZER ISSO-->
+<!--AS CORES INFORMADAS NÃO SÃO REAIS (o usuário irá decidir)-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>KIANTO • Adicionar matéria</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Camily do Nascimento Ghellar">
+    <meta name="refresh" content="2000">
+    <meta name="keywords" content="adicionar nova matéria, matéria escolar, organização"/>
+    <meta name="description" content="Adicionar matérias escolares."/>
+
+    <link rel="stylesheet" type="text/css" href="../estilo.css">
+    <link rel="shortcut icon" href="../favicon_kianto.jpeg" />
+</head>
+
+<body>
+	<header>
+		<a href="../listas/materias.html"><img src="https://cdn-icons-png.flaticon.com/512/1/1112.png" width="60" height="40" alt="seta apontando para o lado esquerdo" style="display: inline-block; float: left; margin: 0 0 0 20px;"></a>
+		<h1>KIANTO • MATÉRIAS</h1>
+	</header>
+
+	<hr> <br>
+
+	<div class="formulario_alinhado">
+	<h2 style="padding: 12px; background-color: #040457; color: white;">Nova matéria</h2>
+	<fieldset>
+		<form action="cadastro_materias.php" method="POST">
+    		<br>
+
+    		<div>
+            <input type="text" name="nome_materia" id="nome_materia" size="61" placeholder="Digite o nome da matéria" required style="text-align: center; font-size: 17px;">
+
+            <br> <br>
+                <div style="border: 1px solid;">
+                <label>Escolha uma cor:  </label><input type="color" name="Cor site" value="#000000" style="padding: 4px;">
+            	</div>
+            </div>
+
+            <br>
+
+            <input type="submit" name="submit" id="submit" value="Confirmar" style="background-color: green; color: white; padding: 11px">
+            <input type="reset" value="Cancelar" style="background-color: red; color: white; padding: 11px">
+    	</form>
+	</fieldset>
+	</div>
+</body>
+</html>

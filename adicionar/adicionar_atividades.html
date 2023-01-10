@@ -1,0 +1,63 @@
+<!--Alice Lima dos Santos-->
+
+<!--PESQUISAR MELHOR JEITO DE FAZER ISSO-->
+<!--AS CORES INFORMADAS NÃO SÃO REAIS (o usuário irá decidir)-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>KIANTO • Adicionar atividades</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Alice Lima dos Santos">
+    <meta name="refresh" content="2000">
+    <meta name="keywords" content="adicionar atividades, matéria escolar, organização."/>
+    <meta name="description" content="Adicionar atividades."/>
+
+    <link rel="stylesheet" type="text/css" href="../estilo.css">
+    <link rel="shortcut icon" href="../favicon_kianto.jpeg" />
+</head>
+
+<body>
+	<header>
+		<a href="../listas/atividades.html"><img src="https://cdn-icons-png.flaticon.com/512/1/1112.png" width="60" height="40" alt="seta apontando para o lado esquerdo" style="display: inline-block; float: left; margin: 0 0 0 20px;"></a>
+
+        <!--ONDE '' COLOCAR O NOME DA MATÉRIA A QUE A PÁGINA SE REFERE-->
+		<h1>KIANTO • MATÉRIAS • ''</h1>
+	</header>
+
+	<hr> <br>
+
+	<div class="formulario_alinhado">
+	<h2 style="background-color: #040457; color: white; padding: 12px;">Atividades</h2>
+    	<fieldset>
+    		<form action="cadastro_atividades.php" method="POST">
+
+    		<br>
+
+    		<div>
+                <label></label><input type="text" name="descricao" id="descricao"size="61" placeholder="Descrição" required style="text-align: center; font-size: 17px;">
+
+                <br> <br>
+
+                <div style="border: 1px solid;">
+                    <label>Anexo:  </label><input type="file" name="anexo" id="anexo" style="padding: 4px;">
+                </div>
+
+                <br>
+
+                <label><input type="date" name="data_entrega" id="data_entrega"size="61" placeholder="Data de entrega" required style="text-align: center; font-size: 17px; padding: 6px; padding-left: 50px; padding-right: 50px;"></label>
+            </div>
+
+            <br>
+
+            <!--QUANDO 'confirmar', MANDAR INFORMAÇÕES PARA 'atividades' E VOLTAR PARA ESTE-->
+            <input type="submit" name="submit" id="submit" value="Confirmar" style="background-color: green; color: white; padding: 11px">
+            <!--QUANDO 'cancelar' VOLTAR PARA 'atividades'-->
+        	<input type="reset" value="Cancelar" style="background-color: red; color: white; padding: 11px">
+        	</form>
+    	</fieldset>
+	</div>
+</body>
+</html>
