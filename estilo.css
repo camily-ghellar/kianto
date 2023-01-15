@@ -1,0 +1,62 @@
+body{
+	font-family: arial;
+}
+h2 {
+	text-align: center;	
+}
+ 
+.formulario_alinhado {
+	width: 47%;
+	margin: 0 auto;
+	text-align: center;
+	border: 8px;
+	font-size: 18px;
+	}
+
+h1 {
+	text-align: center;
+
+}
+
+div {
+	padding-bottom:15px;
+	padding-top: 15px;
+	border-radius: 12px;
+	width: 600px;
+}
+
+input {
+	border-radius: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom:10px;
+	padding-top: 10px;
+}
+
+input:focus {
+	background-color: lightblue;
+}
+
+.materias_alinhadas {
+	border-radius: 12px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom:10px;
+	padding-top: 10px;
+	width: 47%;
+	margin: 0 auto;
+	text-align: center;
+	border: 3px solid;
+}
+
+.conteudos_alinhados{
+	margin-left: 30%;
+	width: 40%;
+	font-size: 19px;
+}
+
+ul {
+	text-align: left;
+	font-size: 22px;
+
+}
